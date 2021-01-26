@@ -17,7 +17,7 @@ drishya_face_encoding = face_recognition.face_encodings(drishya_image)[0]
 # Create arrays of known face encodings and their names
 known_face_encodings = [
     keerthana_face_encoding,
-    dridhya_face_encoding
+    drishya_face_encoding
 ]
 known_face_names = [
     "Keerthana",
